@@ -5,7 +5,8 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color:#A1B391;
+;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -67,7 +68,7 @@ button:focus-visible {
 }
 
 nav {
-  background-color: #333;
+  background-color: #A1B391;
   padding: 10px;
   text-align: center;
 }
