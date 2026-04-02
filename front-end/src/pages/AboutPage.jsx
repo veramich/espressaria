@@ -1,4 +1,9 @@
 export default function AboutPage() {
+
+    const instagramOnClick = () => {
+        window.open("https://www.instagram.com/p/DVZLFRSkh1x/", "_blank", "noopener,noreferrer");
+    }
+
     return(
         <>
         <h1>Who We Are</h1>
@@ -13,6 +18,9 @@ export default function AboutPage() {
             thoughtfully balanced flavors to deliver comfort, 
             energy, and a little joy in every sip.
         </h3>
+
+        <button onClick={instagramOnClick}>View on Instagram</button>
+
         </>
         
     )

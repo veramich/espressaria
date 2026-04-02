@@ -6,6 +6,8 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color:#A1B391;
+  font-weight: 600;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.6);
 ;
 
   font-synthesis: none;
@@ -42,6 +44,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
+  color: #ffffff;
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
@@ -71,17 +74,21 @@ nav {
   background-color: #A1B391;
   padding: 10px;
   text-align: center;
+  position: sticky;
+  top: 0;
 }
-
 nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
 
 nav li {
-  display: inline;
-  margin: 0 15px;
+  margin: 0;
 }
 
 nav a {

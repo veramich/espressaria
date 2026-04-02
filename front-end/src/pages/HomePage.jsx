@@ -1,7 +1,11 @@
 export default function HomePage() {
+
+    const instagramOnClick = () => {
+        window.open("https://www.instagram.com/espressariacafe/", "_blank", "noopener,noreferrer");
+    }
     return(
         <>
-        <img src="./src/assets/logo.png" alt="Logo" width="240"/>
+        <img src="/images/logo.png" alt="Logo" width="240"/>
         <h3>Espressaria Café is a home-based specialty coffee 
             business built on passion, quality, and connection. 
             What started as a love for coffee and baking has 
@@ -14,6 +18,8 @@ export default function HomePage() {
             our signature drinks for the first time, Espressaria 
             Café is committed to delivering quality you can taste.
         </h3>
+
+         <button onClick={instagramOnClick}>View on Instagram</button>
 
 
         </>

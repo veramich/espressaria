@@ -1,3 +1,5 @@
+import communityImage from "../assets/community.jpeg";
+
 export default function CommunityPage() {
 
     const instagramOnClick = () => {
@@ -7,7 +9,7 @@ export default function CommunityPage() {
     return(
         <>
         <h1>Our Community</h1>
-        <img src="./src/assets/community.jpeg" alt="Photo of Espressaria owner with Mayor Karen Bass" width="240"/>
+        <img src={communityImage} alt="Photo of Espressaria owner with Mayor Karen Bass" width="240"/>
         <h3>More than just coffee, Espressaria Café is about 
             community. We proudly serve our local neighborhood, 
             schools, small businesses, and families. As a 
