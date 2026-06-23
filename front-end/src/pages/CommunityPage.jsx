@@ -1,4 +1,5 @@
 import communityImage from "../assets/community.jpeg";
+import Seo from "../Seo";
 
 export default function CommunityPage() {
 
@@ -8,6 +9,11 @@ export default function CommunityPage() {
 
     return(
         <>
+        <Seo
+            title="Community | Espressaria Cafe — A Latina Women-Led Coffee Business in South Central LA"
+            description="More than just coffee. Espressaria Café is a family-owned, latina women-led business serving South Central LA's neighborhoods, schools, and small businesses."
+            path="/community"
+        />
         <h1>Our Community</h1>
         <img src={communityImage} alt="Photo of Espressaria owner with Mayor Karen Bass" width="240"/>
         <h3>More than just coffee, Espressaria Café is about 

@@ -1,3 +1,5 @@
+import Seo from "../Seo";
+
 export default function HomePage() {
 
     const instagramOnClick = () => {
@@ -5,8 +7,13 @@ export default function HomePage() {
     }
     return(
         <>
-        <img src="/images/logo.png" alt="Logo" width="240"/>
-        <h3>Espressaria Café is a home-based specialty coffee 
+        <Seo
+            title="Espressaria Cafe | BEST Home-Based Grab & Go Coffee in the Heart of South Central LA"
+            description="Home of LAUSD Coffee Cake Drink. Order your drink as curbside or get it delivered to your destination."
+            path="/"
+        />
+        <img src="/images/logo.png" alt="Espressaria Cafe logo" width="240"/>
+        <h3>Espressaria Café is a home-based specialty coffee
             business built on passion, quality, and connection. 
             What started as a love for coffee and baking has 
             grown into a neighborhood favorite where every drink

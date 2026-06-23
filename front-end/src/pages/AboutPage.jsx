@@ -1,3 +1,5 @@
+import Seo from "../Seo";
+
 export default function AboutPage() {
 
     const instagramOnClick = () => {
@@ -6,6 +8,11 @@ export default function AboutPage() {
 
     return(
         <>
+        <Seo
+            title="About Espressaria Cafe | Handcrafted Espresso & Coffee Cake Iced Latte"
+            description="Meet Espressaria Café — handcrafted espresso drinks, signature flavored lattes, and our notable LAUSD-style Coffee Cake Iced Latte, made fresh in South Central LA."
+            path="/about"
+        />
         <h1>Who We Are</h1>
         <h3>
             We specialize in handcrafted espresso drinks, 
